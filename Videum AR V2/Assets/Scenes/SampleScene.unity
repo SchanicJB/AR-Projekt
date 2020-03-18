@@ -150,8 +150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeviceCameraDirection: 0
-  SessionConfig: {fileID: 0}
-  CameraConfigFilter: {fileID: 0}
+  SessionConfig: {fileID: 11400000, guid: 9586a84d6c32f46b6ab7aeb6042f160d, type: 2}
+  CameraConfigFilter: {fileID: 11400000, guid: 200b4cba649e3413088e285251ccf44e, type: 2}
 --- !u!4 &120537884
 Transform:
   m_ObjectHideFlags: 0

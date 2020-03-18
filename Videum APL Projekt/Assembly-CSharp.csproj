@@ -245,7 +245,7 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSessionStatus.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
-    <Compile Include="Assets\Scripts\SelectFile.cs" />
+    <Compile Include="Assets\HelloAR\Scripts\SelectFile.cs" />
     <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
     <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
@@ -254,6 +254,9 @@
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\MobileSpecularWithLightEstimation.shader" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PointCloud.shader" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\TransparentShadow.shader" />
+    <Reference Include="Unity.XR.Management">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -263,29 +266,23 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARSubsystems">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARSubsystems.Editor">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARCore">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
@@ -296,11 +293,20 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -476,6 +482,9 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -484,9 +493,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

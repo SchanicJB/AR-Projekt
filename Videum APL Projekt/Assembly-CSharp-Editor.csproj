@@ -97,6 +97,9 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -106,29 +109,23 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARSubsystems">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARSubsystems.Editor">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARCore">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
@@ -139,11 +136,20 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -346,6 +352,15 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
+      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -360,12 +375,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum APL Projekt/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

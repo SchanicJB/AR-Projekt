@@ -260,9 +260,6 @@
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -273,17 +270,10 @@
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-<<<<<<< HEAD
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-=======
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
->>>>>>> e2477b1fdc0730e82a58145aa54a3bf9ea548f61
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -300,20 +290,11 @@
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Users/Erik/Documents/Unity/2019.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -495,9 +476,6 @@
     <Reference Include="Google.Protobuf">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -505,11 +483,7 @@
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-<<<<<<< HEAD
       <HintPath>C:/Users/Erik/Documents/GitHub/AR-Projekt/Videum AR V2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
-=======
-      <HintPath>C:/Users/Johan/Documents/AR-Projekt/Videum AR V2/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
->>>>>>> e2477b1fdc0730e82a58145aa54a3bf9ea548f61
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Users/Erik/Documents/Unity/2019.1.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
